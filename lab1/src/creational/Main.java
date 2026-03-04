@@ -12,7 +12,7 @@ public class Main {
         docCreator.createDocument().open();
 
         // 3. Abstract Factory
-        GUIFactory gui = new WinFactory();
+        GUIFactory gui = new MacFactory();
         gui.createButton().render();
 
         // 4. Builder
